@@ -70,4 +70,8 @@ helm show values prometheus-community/kube-state-metrics
 
 ---
 `make scan` scans your image for valnerabilities \
-`make update_deploy` scans your image and upgrades deployment.yml to your cluster
+`make update_deploy` scans your image and upgrades deployment.yml to your cluster \
+`make start` start Minikube cluster \
+`make status` check Minikube cluster status \
+`make stop` stop Minikube cluster \
+`make port_forward` start port-forwarding to your app service
