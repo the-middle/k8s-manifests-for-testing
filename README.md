@@ -69,6 +69,8 @@ helm show values prometheus-community/kube-state-metrics
 ```
 
 ---
+> You need to login to DockerHub to use scan feature `docker login`
+
 `make scan` scans your image for valnerabilities \
 `make update_deploy` scans your image and upgrades deployment.yml to your cluster \
 `make start` start Minikube cluster \
